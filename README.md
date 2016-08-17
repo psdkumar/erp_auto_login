@@ -6,6 +6,7 @@ Auto Login in ERP, IIT Kharagpur
 * Python 2.7 or higher 
 * Selenium Package :
   * Install selenium by using the following command in terminal.
+
     > pip install selenium
 
 ## Fill Details : 
@@ -35,6 +36,7 @@ Edit 'details.txt' file with your own details.
 * Open the terminal. 
 * Go to the directory in which **erp_login.py** and **details.txt** are stored.
 * Run the following command for making erp_login.py an executable file.
+
   > chmod +x erp_login.py
 * Now you can run this executable file by two ways.
   * Through Terminal
@@ -44,6 +46,7 @@ Edit 'details.txt' file with your own details.
 * Open the terminal. 
 * Go to the directory in which **erp_login.py** and **details.txt** are stored.
 * Run the following command for making erp_login.py an executable file.
+
   > ./erp_login.py
 
 #### Through Double-Clicking :
