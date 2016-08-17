@@ -19,7 +19,7 @@ class AutoLoginERP :
 		self.__ans2    = allDetails[5][:-1]
 		self.__qstn3   = allDetails[6][:-1]
 		self.__ans3    = allDetails[7][:-1]
-		self.__title   = allDetails[8][:-1]
+		self.__title   = "Welcome " + allDetails[8][:-1] + " to ERP, IIT Kharagpur"
 		self.__dict    = {self.__qstn1 : self.__ans1, self.__qstn2 : self.__ans2, self.__qstn3 : self.__ans3}
 		details.close()
 
@@ -27,7 +27,7 @@ class AutoLoginERP :
 		# Open ERP Webpage
 		self.browser.get('http://erp.iitkgp.ernet.in/')
 		success = "Welcome to ERP" in self.browser.title
-		if success != True : self.openBrowser()
+		if success != True : self.openERP()
 		return self	                          
 
 	def enterDetails(self) :
