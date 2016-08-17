@@ -53,5 +53,5 @@ Edit 'details.txt' file with your own details.
 * Open the folder in which **erp_login.py** and **details.txt** are located.
 * Go to Edit->Preferences->Behaviour.
 * Click **Ask Everytime** in What to do for executable files section and close it. 
-* Now double click the **erp_login.py** and click **Run**. 
+* Now double click **erp_login.py** and click **Run**. 
 
