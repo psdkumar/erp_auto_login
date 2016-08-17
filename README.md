@@ -8,7 +8,8 @@ Install selenium by using the following command in terminal.
 > pip install selenium
 
 ## Personal Details : 
-Edit 'details.txt' file with your own details
+* Edit 'details.txt' file with your own details. 
+
 1. Replace 'Roll Number' with your roll number (Ex: 13XX23848)
 2. Replace 'Password' with your password (Ex: XXXXXXXX)
 3. Replace 'Question-1', 'Question-2', 'Qusstion-3' with your questions (Ex: Your Favourite Sport)
