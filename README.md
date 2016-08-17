@@ -4,7 +4,8 @@ Auto Login in ERP, IIT Kharagpur
 ## Requirements :
 * Python 2.7 or higher 
 * Selenium Package :
-** Install selenium by using the following command in terminal. 
+  * Install selenium by using the following command in terminal.
+
 > pip install selenium
 
 ## Personal Details : 
