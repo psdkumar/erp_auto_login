@@ -16,7 +16,7 @@ Edit 'details.txt' file with your own details.
 * Replace **Password** with your password (Ex: **XXXXXXXX**)
 * Replace **Question-1**, **Question-2**, **Question-3** with your questions (Ex: **Your Favourite Sport**)
 * Replace **Answer-1**, **Answer-2**, **Answer-3** with the respective answers to the above questions (Ex: **XXXXXXX**)
-* Replace **Full Name** with your full name that appears in ERP (Ex: *XXXXXXXXXXX XXXXXXX XXXXXXXX**)
+* Replace **Full Name** with your full name that appears in ERP (Ex: **XXXXXXXXXXX XXXXXXXX**)
 
 
 ## Usage :
