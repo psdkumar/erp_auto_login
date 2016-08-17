@@ -7,7 +7,7 @@ Auto Login in ERP, IIT Kharagpur
 Install selenium by using the following command in terminal. 
 > pip install selenium
 
-## Personal Details
+## Personal Details : 
 Edit 'details.txt' file with your own details
 1. Replace 'Roll Number' with your roll number (Ex: 13XX23848)
 2. Replace 'Password' with your password (Ex: XXXXXXXX)
