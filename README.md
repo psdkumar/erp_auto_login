@@ -45,7 +45,7 @@ Edit 'details.txt' file with your own details.
 #### Through Terminal :
 * Open the terminal. 
 * Go to the directory in which **erp_login.py** and **details.txt** are stored.
-* Run the following command for making erp_login.py an executable file.
+* Run the following command for executing **erp_login.py**.
 
   > ./erp_login.py
 
