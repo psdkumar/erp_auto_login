@@ -1,0 +1,10 @@
+#!/bin/bash
+
+commands () {
+    cd /home/psdk/Documents/erp_auto_login
+    ./erp_login.py
+    $SHELL
+}
+
+export -f commands
+gnome-terminal -e "bash -c 'commands'"
