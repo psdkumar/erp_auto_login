@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import Ke
+from selenium.webdriver.common.keys import Keys
 
 class AutoLoginERP :
 	# Initialising Web Driver
