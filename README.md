@@ -8,7 +8,7 @@ Auto Login in ERP, IIT Kharagpur
 * Selenium Package :
   * You can install selenium by using the following command in terminal.
 
-    > sudo -E pip install selenium
+    ```  sudo -E pip install selenium  ```
 
 ## Fill Details : 
 Edit 'details.txt' file with your own details. 
@@ -38,7 +38,7 @@ Edit 'details.txt' file with your own details.
 * Go to the directory in which **erp_login.py** and **details.txt** are stored.
 * Run the following command for making erp_login.py an executable file.
 
-  > chmod +x erp_login.py
+  ``` chmod +x erp_login.py  ```
 * Now you can run this executable file by two ways.
   * Through Terminal
   * Through Double-Clicking
@@ -48,7 +48,7 @@ Edit 'details.txt' file with your own details.
 * Go to the directory in which **erp_login.py** and **details.txt** are stored.
 * Run the following command for executing **erp_login.py**.
 
-  > ./erp_login.py
+  ```  ./erp_login.py  ```
 
 #### Through Double-Clicking :
 * Open the folder in which **erp_login.py** and **details.txt** are located.
