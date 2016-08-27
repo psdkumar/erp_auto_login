@@ -7,7 +7,7 @@ Auto Login in ERP, IIT Kharagpur
 * Python 2.7 (with pip)
   * You can install pip by using the following command in terminal.
 
-    ```  sudo apt-get install python-pip  ```
+    ```  `sudo apt-get install python-pip`  ```
 * Selenium Package :
   * You can install selenium by using the following command in terminal.
 
