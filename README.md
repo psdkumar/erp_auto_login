@@ -11,7 +11,8 @@ Auto Login in ERP, IIT Kharagpur
 * Selenium Package :
   * You can install selenium by using the following command in terminal.
 
-    ```  sudo -E pip install selenium  ```
+    * If you are using any proxy     : ```  sudo -E pip install selenium  ```
+    * If you are not using any proxy : ```  sudo pip install selenium  ```
 
 ## Fill Details : 
 Edit 'details.txt' file with your own details. 
