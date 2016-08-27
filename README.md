@@ -5,11 +5,11 @@ Auto Login in ERP, IIT Kharagpur
 * Linux System
 * Mozilla Firefox
 * Python 2.7 (with pip)
-  * You can install `pip` by using the following command in terminal.
+  * You can install pip by using the following command in terminal.
 
     ```  sudo apt-get install python-pip  ```
 * Selenium Package :
-  * You can install `selenium` by using the following command in terminal.
+  * You can install selenium by using the following command in terminal.
 
     * If you are using any proxy     : ```  sudo -E pip install selenium  ```
     * If you are not using any proxy : ```  sudo pip install selenium  ```
