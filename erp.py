@@ -1,10 +1,14 @@
 # Main Code for the ERP Login
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class AutoLoginERP :
 	# Initialising Web Driver
-	browser = webdriver.Firefox()
+	#browser = webdriver.Firefox()
+	browser = webdriver.Chrome()
 
 	def __init__(self) :
 		# Initialise Details
@@ -40,6 +44,8 @@ class AutoLoginERP :
 
 		# Finding Secuirty Question 
 		self.browser.implicitly_wait(20)
+		wait = WebDriverWait(self.browser, 10)
+		element = wait.until(EC.presence_of_element_located((By.ID,'question')))
 		qstn = self.browser.find_element_by_xpath("//label[@for = 'answer']").text
 
 		# Finding & Entering Answer for Secuirty Question
