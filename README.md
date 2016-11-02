@@ -4,11 +4,15 @@ Auto Login in ERP, IIT Kharagpur
 ## Requirements :
 * Linux System
 * Mozilla Firefox
-* Python 2.7 
-* Selenium Package :
-  * You can install selenium by using the following command in terminal.
+* Python 2.7 (with pip)
+  * You can install **pip** by using the following command in terminal.
 
-    > sudo -E pip install selenium
+    ```  sudo apt-get install python-pip  ```
+* Selenium Package :
+  * You can install **selenium** by using the following command in terminal.
+
+    * If you are using any proxy     : ```  sudo -E pip install selenium  ```
+    * If you are not using any proxy : ```  sudo pip install selenium  ```
 
 ## Fill Details : 
 Edit 'details.txt' file with your own details. 
@@ -38,7 +42,7 @@ Edit 'details.txt' file with your own details.
 * Go to the directory in which **erp_login.py** and **details.txt** are stored.
 * Run the following command for making erp_login.py an executable file.
 
-  > chmod +x erp_login.py
+  ``` chmod +x erp_login.py  ```
 * Now you can run this executable file by two ways.
   * Through Terminal
   * Through Double-Clicking
@@ -48,7 +52,7 @@ Edit 'details.txt' file with your own details.
 * Go to the directory in which **erp_login.py** and **details.txt** are stored.
 * Run the following command for executing **erp_login.py**.
 
-  > ./erp_login.py
+  ```  ./erp_login.py  ```
 
 #### Through Double-Clicking :
 * Open the folder in which **erp_login.py** and **details.txt** are located.
