@@ -3,7 +3,7 @@ Auto Login in ERP, IIT Kharagpur
 
 ## Requirements :
 * Linux System
-* Mozilla Firefox
+* Google Chrome
 * Python 2.7 (with pip)
   * You can install **pip** by using the following command in terminal.
 
